@@ -1330,24 +1330,28 @@ public class Restaurants extends javax.swing.JFrame {
     }//GEN-LAST:event_jbtnTotalActionPerformed
 
     private void jbtnResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnResetActionPerformed
-        jtextChicBurger.setText(null);
-        jCChicBurger.setSelected(false);
-        jCChicBurgerMeal.setSelected(false);
-        jCBaconandCheeseBurger.setSelected(false);
-        jCVegetarianBurger.setSelected(false);
-        jtextChicBurgerMeal.setText(null);
-        jtextBaconadnCheeseBurger.setText(null);
-        jtextVegetarinaBurger.setText(null);
-        jlblConvert.setText(null);
-        jlblCostOfDelivery.setText(null);
-        jCDelivery.setSelected(false);
-        jlblCostOfDrinks.setText(null);
-        jlblCostOfMeal.setText(null);
-        jlblTax.setText(null);
-        jCTax.setSelected(false);
-        jlblsubTotal.setText(null);
-        jlblTotal.setText(null);
-        jTextFinalReceipt.setText(null);
+//        jtextChicBurger.setText("");
+//        jCChicBurger.setSelected(false);
+//        jCChicBurgerMeal.setSelected(false);
+//        jCBaconandCheeseBurger.setSelected(false);
+//        jCVegetarianBurger.setSelected(false);
+//        jCmbDrink.setSelectedItem("Select a drink");
+//        jtextChicBurgerMeal.setText("");
+//        jtextBaconadnCheeseBurger.setText("");
+//        jtextVegetarinaBurger.setText("");
+//        jlblConvert.setText("");
+//        jlblCostOfDelivery.setText("");
+//        jCDelivery.setSelected(false);
+//        jlblCostOfDrinks.setText("");
+//        jlblCostOfMeal.setText("");
+//        jlblTax.setText("");
+//        jCTax.setSelected(false);
+//        jlblsubTotal.setText("");
+//        jlblTotal.setText("");
+//        jTextFinalReceipt.setText("");
+        Restaurants res = new Restaurants();
+        res.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_jbtnResetActionPerformed
 
     public static void main(String args[]) {
